@@ -36,9 +36,8 @@ A common example (for me) using several of the shortcuts above after landing on 
 
 1. `G` `I` to open the Issues tab
 2. `C` to create a new issue
-3. fill in title and description
-4. `A` to assign someone
-5. `L` to add labels
+3. `A` to assign someone
+4. `L` to add labels
 
 ## Markdown
 
@@ -58,7 +57,7 @@ A common example (for me) using several of the shortcuts above after landing on 
 
     </p>
     </details>
-3. [Mermaid](https://mermaid-js.github.io/mermaid/#/) is freaking awesome for [flowcharts](https://mermaid-js.github.io/mermaid/#/./flowchart?id=flowcharts-basic-syntax), [sequence diagrams](https://mermaid-js.github.io/mermaid/#/./sequenceDiagram), [gantt diagrams](https://mermaid-js.github.io/mermaid/#/./gantt), [class diagrams](https://mermaid-js.github.io/mermaid/#/./classDiagram), and more
+3. [Mermaid](https://mermaid-js.github.io/mermaid/#/) is really awesome for [flowcharts](https://mermaid-js.github.io/mermaid/#/./flowchart?id=flowcharts-basic-syntax), [sequence diagrams](https://mermaid-js.github.io/mermaid/#/./sequenceDiagram), [gantt diagrams](https://mermaid-js.github.io/mermaid/#/./gantt), [class diagrams](https://mermaid-js.github.io/mermaid/#/./classDiagram), and more
 ```mermaid
     sequenceDiagram
         participant User
