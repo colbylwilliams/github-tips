@@ -43,8 +43,23 @@ A common example (for me) using several of the shortcuts above after landing on 
 
 > _Check out the docs on [basic formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for more info, these are just a few favorites_
 
-1. [Emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
-2.  <details><summary>Create collapsed sections...</summary>
+1. [Alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+2. [Emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+3.  <details><summary>Create collapsed sections...</summary>
     <p>
 
      > Using the [`<details>`](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) tag
@@ -57,7 +72,7 @@ A common example (for me) using several of the shortcuts above after landing on 
 
     </p>
     </details>
-3. [Mermaid](https://mermaid-js.github.io/mermaid/#/) is really awesome for [flowcharts](https://mermaid-js.github.io/mermaid/#/./flowchart?id=flowcharts-basic-syntax), [sequence diagrams](https://mermaid-js.github.io/mermaid/#/./sequenceDiagram), [gantt diagrams](https://mermaid-js.github.io/mermaid/#/./gantt), [class diagrams](https://mermaid-js.github.io/mermaid/#/./classDiagram), and more
+4. [Mermaid](https://mermaid-js.github.io/mermaid/#/) is really awesome for [flowcharts](https://mermaid-js.github.io/mermaid/#/./flowchart?id=flowcharts-basic-syntax), [sequence diagrams](https://mermaid-js.github.io/mermaid/#/./sequenceDiagram), [gantt diagrams](https://mermaid-js.github.io/mermaid/#/./gantt), [class diagrams](https://mermaid-js.github.io/mermaid/#/./classDiagram), and more
 ```mermaid
     sequenceDiagram
         participant User
@@ -71,7 +86,7 @@ A common example (for me) using several of the shortcuts above after landing on 
         Database ->> API: {the: thing}
         API ->> User : 200 {the: thing}
 ```
-4. aand... footnotes with simple bracket syntax[^1], or named[^note].
+5. aand... footnotes with simple bracket syntax[^1], or named[^note].
 
 [^1]: My reference.
 [^note]:
